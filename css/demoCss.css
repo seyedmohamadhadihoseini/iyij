@@ -1,0 +1,72 @@
+.all-in-one {
+  display: flex;
+  /* grid-template-columns: 1fr 100%; */
+}
+
+.all-description form input {
+  padding: 8px;
+  /* display: block; */
+  margin-top: 10px;
+  width: 100%;
+
+}
+
+.all-description {
+  width: 50%;
+
+}
+
+.all-description form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 0px;
+  margin-right: 10%;
+}
+
+.all-description form label {
+  padding: 10px 0;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+}
+
+#demo-img {
+  width: 100%;
+  margin-top: 7%;
+  text-align: left;
+}
+
+#securityCodeGive,
+#securityCode {
+  display: inline-block;
+  width: 25%;
+}
+/* 
+.all-description form #right-channel * {
+  display: block;
+} */
+
+
+
+
+
+#okButton {
+  padding: 8px 60px;
+  margin-top: 10px;
+  margin-right: 20%;
+  background-image: linear-gradient(90deg, #1b7006, #11f86a);
+  border: none;
+  border-radius: 30px;
+  
+
+}
+
+#okButton:hover {
+  background-color: green;
+  /* color: blue; */
+  transform: scale(1.2);
+}
+#demo-footer{
+  position: fixed;
+  bottom: 0;
+}
